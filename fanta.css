@@ -1,0 +1,173 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,200;0,500;1,600&family=Fruktur&family=Mukta:wght@400;600&family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mukta;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: orangered; */
+}
+nav{
+    position: fixed;
+    display: flex;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+    padding: .8vw 7.5vw;
+}
+nav a, i {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+}
+.centernav{
+    display: flex;
+    gap: 2vw;
+}
+
+#hero{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, orangered, orange);
+}
+.fanta{
+    position: relative;
+    z-index: 10;
+    width: 40%;
+    position: absolute;
+}
+.orange{
+    position: absolute;
+    width: 15%;
+    top: 12%;
+    left: 35%;
+    /* z-index: 1; */
+}
+.orangeleaf{
+    width: 15%;
+    /* z-index: 3; */
+    position: absolute;
+    bottom: 10%; 
+}
+#hero h1{
+    font-size: 23vw;
+    color: rgb(194, 218, 239);
+}
+
+.leaf{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    transform: rotate(10deg);
+    width: 17%;
+}
+.cocunet{
+    width: 15%;
+    position: absolute;
+    top: 7%;
+    left: 85%;
+
+}
+
+#herotwo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.lefthero, .righthero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    gap: 5vw;
+    height: 100vh;
+    background-color: rgb(51, 78, 42);
+}
+.lefthero svg{
+    transform: rotateX(73deg);
+    margin-top: 60vh;
+    width: 77%
+    /* background-color: ; */
+}
+.righthero h1{
+    color: #fff;
+    font-size: 4.5vw;
+    font-weight: 750;
+}
+.righthero p{
+    width: 70%;
+    color: rgb(98, 227, 52);
+    font-size: 1vw;
+    text-align: end;
+}
+
+
+
+#herothree{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5vw;
+    height: 100vh;
+    background: linear-gradient(110deg, rgb(219, 90, 42), rgb(207, 144, 26));
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-radius: 30px;
+    /* box-shadow: 15px 15px 18px red; */
+    box-shadow: -27px 32px 35px red;
+    width: 25vw;
+    height: 70vh;
+    background-color: rgb(135, 28, 28);
+    gap: 2vw;
+}
+.card:nth-child(1){
+    background-color: rgb(47, 47, 108);
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 40vh;
+    color: azure;
+}
+.card button{
+    font-size: 1.3vw;
+    border-radius: 44px;
+    color: white;
+    background-color: orangered;
+    padding: 1vw 2vw;
+}
+.pepsi{
+    top: 23%;
+    position: absolute;
+    width: 17%;
+}
+
+.coca{
+    top: 20%;
+    width: 13%;
+    position: absolute;
+}
