@@ -1,3 +1,5 @@
+var ans = confirm("hghfgfg");
+console.log(ans);
 var tl = gsap.timeline({
     scrollTrigger: {
         trigger: "#herotwo",
